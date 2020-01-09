@@ -1,0 +1,149 @@
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;    
+}
+li{list-style-type: none;}
+a{
+    text-decoration: none;
+    color: #444;
+}
+body{
+    color: #444;
+    font-size: 100%;
+    min-width: 1200px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+/* menu */
+#main_header{
+    width: 100%;
+}
+#main_header #main_gnb{
+}
+#main_header #main_gnb > ul{
+    position: fixed;
+    text-align: center;
+    background: rgba(0,0,0,0.4);
+    /* outline: 1px solid red; */
+    width: 100%;
+    height: 60px;
+    z-index: 99;
+}
+#main_header #main_gnb > ul > li{
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 16px;
+    text-align: right;
+}
+#main_header #main_gnb > ul > li > a{
+    color: #fff;
+}
+
+/* Home */
+#visual{
+    width: 100%;
+    max-height:1000px;
+}
+#bg{ 
+    position: relative;
+    top: 0;
+    left: 0; top: 0;
+    width: 100%;
+}
+.div_wrap{
+    position: absolute;
+    width: 100%;
+    max-height:1000px;
+    top: 40%;
+    left: 0;
+    color: #fff;
+    text-align: center;
+}
+/* .div_wrap > div{
+    margin-top: 30%;
+} */
+.div_wrap > div > h2{
+    font-size: 100px;
+}
+
+/* section 공통 */
+.space{height: 100px;}
+h1{
+    text-align: center;
+    margin-bottom: 15px;
+    font-size: 30px;
+}
+.line{
+    margin: 0 auto;
+    width: 80px;
+    height: 1px;
+    background: #444;
+    margin-bottom: 80px;
+}
+
+/* Portfolio */
+#portfolio{
+    height: 900px;
+    margin-top: 100px;
+}
+
+/* 슬라이더 */
+.slick-dotted.slick-slider{
+    width: 1200px;
+    margin: 0 auto;
+}
+.slider-for{
+	width: 500px;
+	height: 300px;
+    margin: 0 auto;
+    margin-bottom: 40px;
+	overflow: hidden;
+}
+/* About */
+#about{
+    margin-top: 100px;
+}
+#about > .container{
+    width: 1200px;
+    height: 400px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+#about > .container > .col{
+    width: 380px;
+    height: 380px;
+    /* outline: 1px solid red; */
+    float: left;
+}
+#about > .container > .col:nth-child(2){
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#about > .container > .col > h2 ,#about > .container > .col > p{
+    text-align: center;
+}
+#about > .container > .col > img{
+    margin-left: 40px;
+    margin-right: 40px;
+}    
+
+/* Contact */
+#contact{
+    clear: both;
+    margin-top: 40px;
+}
+#contact > .line{
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+#contact > .phone{
+    margin-bottom: 100px;
+}
+#contact > .phone > li{
+    text-align: center;
+    font-size: 24px;
+    color: black;
+    font-weight: bold;
+}
